@@ -4,9 +4,9 @@
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
-|Variable        |var name: type = expression|
-|Constant        |let name: type = expression|
-|Examples        |`var answer: Int = 42`|
+|Variable        |var name[: type] = expression|
+|Constant        |let name[: type] = expression|
+|Examples        |`var answer = 42`|
 |                |`let PI: Float = 3.14159265359`|
 
 ## JavaScript
