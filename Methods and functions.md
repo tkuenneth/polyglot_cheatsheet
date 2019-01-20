@@ -5,9 +5,9 @@
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
 |Keyword and name|func name|
-|Parameters      |[name: type]|
+|Parameters      |[[name] name: type]|
 |Return type     |[-> type]|
-|Examples        |`func multiply(x: Int, y:Int) -> Int { return x * y;}`|
+|Examples        |`func multiply(x y: Int, z: Int) -> Int { return y * z}`|
 
 ## JavaScript	
 
