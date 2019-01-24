@@ -1,5 +1,7 @@
 # Variables and Constants
 
+[Back](README.md) to main page
+
 ## Swift
 
 |Feature         |Implementation|

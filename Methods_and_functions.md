@@ -1,5 +1,7 @@
 # Methods and functions
 
+[Back](README.md) to main page
+
 ## Swift
 
 |Feature         |Implementation|
