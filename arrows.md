@@ -13,6 +13,11 @@ strings.forEach(element -> System.out.println(element));
 
 ## Kotlin
 
+```kotlin
+val strings = listOf("Hello", "polyglot", "dev")
+strings.forEach(action = { s: String -> println(s) })
+```
+
 ## C#
 
 ## JavaScript
