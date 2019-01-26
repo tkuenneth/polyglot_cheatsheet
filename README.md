@@ -14,3 +14,4 @@ This cheat sheet is for all developers. If you feel that something should be add
 - [Methods and Functions](Methods_and_functions.md)
 - [Variables and Constants](Variables_and_Constants.md)
 - [Arrows](arrows.md)
+- [String interpolation](string_interpolation.md)
