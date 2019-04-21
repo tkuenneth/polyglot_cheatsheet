@@ -27,6 +27,7 @@
 |Constant        |const name = expression;|
 |Examples        |`var answer = 42;`|
 |                |`const PI = 3.14159265359;`|
+|                |`final a = A();`|
 
 ## Kotlin	
 |Feature         |Implementation|
