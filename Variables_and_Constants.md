@@ -18,6 +18,7 @@
 |Variable        |var name = expression;|
 |Constant        |const name = expression;|
 |Examples        |`var answer = 42;`|
+|                |`let a = 42; // block scoped`|
 |                |`const PI = 3.14159265359;`|
 
 ## Dart	
