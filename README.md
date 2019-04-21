@@ -16,3 +16,4 @@ This cheat sheet is for all developers. If you feel that something should be add
 - [Arrows](arrows.md)
 - [String interpolation](string_interpolation.md)
 - [Loops](loops.md)
+- [Conditions](conditions.md)
