@@ -49,3 +49,12 @@
 |Parameters      |[type name]|
 |Return type     |type|
 |Examples        |`int multiply(int x, int y) { return x * y; }`|
+
+## C#	
+
+|Feature         |Implementation|
+|----------------|------------------------------------------------------------|
+|Keyword and name|name|
+|Parameters      |[type name]|
+|Return type     |type|
+|Examples        |`int Multiply(int x, int y) { return x * y; }`|
