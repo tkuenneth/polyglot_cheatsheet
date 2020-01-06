@@ -15,5 +15,7 @@ This cheat sheet is for all developers. If you feel that something should be add
 - [Variables and Constants](Variables_and_Constants.md)
 - [Arrows](arrows.md)
 - [String interpolation](string_interpolation.md)
-- [Loops](loops.md)
+- Loops
+   - [for](for_loops.md)
+   - [while](while_loops.md)
 - [Conditions](conditions.md)
