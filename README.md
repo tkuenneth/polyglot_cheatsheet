@@ -10,12 +10,12 @@ But don't panic. This cheat sheet for the polyglot developer lists important con
 If an element is put in square brackets `[like this]` it means that *like this* can be omitted (it is optional).
 
 ### Table of Contents
-- [Try them online](Online_REPLs.md)
-- [Methods and Functions](Methods_and_functions.md)
-- [Variables and Constants](Variables_and_Constants.md)
-- [Arrows](arrows.md)
-- [String interpolation](string_interpolation.md)
+- [Try them online](./sheet/Online_REPLs.md)
+- [Methods and Functions](./sheet/Methods_and_functions.md)
+- [Variables and Constants](./sheet/Variables_and_Constants.md)
+- [Arrows](./sheet/arrows.md)
+- [String interpolation](./sheet/string_interpolation.md)
 - Loops
-   - [for](for_loops.md)
-   - [while](while_loops.md)
-- [Conditions](conditions.md)
+   - [for](./sheet/for_loops.md)
+   - [while](./sheet/while_loops.md)
+- [Conditions](./sheet/conditions.md)

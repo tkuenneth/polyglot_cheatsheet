@@ -74,4 +74,4 @@ for b in (1...10).reversed() {
 ```
 
 ---
-[Back](README.md) to main page
+[Back](/README.md) to main page

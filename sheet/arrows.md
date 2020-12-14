@@ -31,4 +31,4 @@ In combination with closures the `in` keyword is used.
 C-like languages offer another arrow type: `>>` and `<<`.
 
 ---
-[Back](README.md) to main page
+[Back](/README.md) to main page

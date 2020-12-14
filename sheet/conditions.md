@@ -36,4 +36,4 @@ print(s?? "is null");
 ## Java	
 
 ---
-[Back](README.md) to main page
+[Back](/README.md) to main page
