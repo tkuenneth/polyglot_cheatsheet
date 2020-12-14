@@ -1,7 +1,5 @@
 # Methods and functions
 
-[Back](README.md) to main page
-
 ## Swift
 
 |Feature         |Implementation|
@@ -58,3 +56,6 @@
 |Parameters      |[type name]|
 |Return type     |type|
 |Examples        |`int Multiply(int x, int y) { return x * y; }`|
+
+---
+[Back](README.md) to main page

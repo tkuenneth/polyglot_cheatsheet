@@ -1,7 +1,5 @@
 # while loops
 
-[Back](README.md) to main page
-
 ## Dart	
 
 ```dart
@@ -18,3 +16,6 @@ do {
 ## Kotlin	
 
 ## Swift
+
+---
+[Back](README.md) to main page

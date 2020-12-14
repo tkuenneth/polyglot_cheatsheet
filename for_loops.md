@@ -1,7 +1,5 @@
 # for loops
 
-[Back](README.md) to main page
-
 ## Dart	
 
 Dart has a C-like `for`-loop:
@@ -74,3 +72,6 @@ for b in (1...10).reversed() {
   print(b)
 }
 ```
+
+---
+[Back](README.md) to main page

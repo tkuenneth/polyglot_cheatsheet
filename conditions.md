@@ -1,7 +1,5 @@
 # Conditions
 
-[Back](README.md) to main page
-
 ## Swift
 
 ## JavaScript
@@ -36,3 +34,6 @@ print(s?? "is null");
 ## Kotlin	
 
 ## Java	
+
+---
+[Back](README.md) to main page

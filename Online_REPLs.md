@@ -1,6 +1,4 @@
-# (Online) REPLs
-
-[Back](README.md) to main page
+# Online REPLs
 
 The term REPL means **R**ead-**E**valuate-**P**rint-Loop. Such tools work like this:
 
@@ -10,6 +8,12 @@ The term REPL means **R**ead-**E**valuate-**P**rint-Loop. Such tools work like t
 
 Shells are REPLs. The (full screen) editors of home computers are, too. But you can also use them to learn a program language.
 
-## Dart
+|Language|REPL|
+|-|-|
+|Dart|[DartPad](https://dartpad.dev/)|
+|JavaScript|[JSFiddle](https://jsfiddle.net/)|
+|Kotlin|[Kotlin Playground](https://play.kotlinlang.org/)|
+|Swift|[Online Swift Playground](http://online.swiftplayground.run/)|
 
-[DartPad](https://dartpad.dev/)
+---
+[Back](README.md) to main page

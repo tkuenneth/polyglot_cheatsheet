@@ -1,7 +1,5 @@
 # String interpolation
 
-[Back](README.md) to main page
-
 String interpolation or variable substitution means replacing placeholders with corresponding variable content.
 
 Kotlin and Dart do string interpolation by prefixing variable names with `$`. To evaluate expressions, put them inside `{ }`.
@@ -68,3 +66,6 @@ UnaryOperator<Integer> c = (x) -> x * x;
 System.out.println(String.format("a=%d b=%d c=%d",
         a, b, c.apply(3)));
 ```
+
+---
+[Back](README.md) to main page

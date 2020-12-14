@@ -1,7 +1,5 @@
 # Arrows
 
-[Back](README.md) to main page
-
 Arrows are often used in combination with lambda expressions.
 
 ## Java
@@ -31,3 +29,6 @@ In combination with closures the `in` keyword is used.
 ## Other arrows
 
 C-like languages offer another arrow type: `>>` and `<<`.
+
+---
+[Back](README.md) to main page

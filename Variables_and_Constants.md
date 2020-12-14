@@ -1,7 +1,5 @@
 # Variables and Constants
 
-[Back](README.md) to main page
-
 ## Swift
 
 |Feature         |Implementation|
@@ -46,3 +44,6 @@
 |Constant        |final type name = expression;|
 |Examples        |`int answer = 42;`|
 |                |`final double PI = 3.14159265359;`|
+
+---
+[Back](README.md) to main page
