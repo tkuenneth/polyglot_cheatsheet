@@ -1,41 +1,14 @@
 # String interpolation
 
-String interpolation or variable substitution means replacing placeholders with corresponding variable content.
+String interpolation or variable substitution means replacing placeholders with corresponding variable content. 
 
-Kotlin and Dart do string interpolation by prefixing variable names with `$`. To evaluate expressions, put them inside `{ }`.
+- C# prefixes the string with `$`. Variables and expressions are put inside `{}`.
+- Dart and Kotlin also do string interpolation by prefixing variable names with `$`. To evaluate expressions, put them inside `{ }`.
+- Java has no string interpolation. Still, there certainly is powerful `String.format(...)`.
+- JavaScript uses `` `...${}...` ``. The curly braces can contain expressions, too.
+- Swift likes `"...\()..."`. So, variables or expressions are put in round braces. The prefix is `\`.
 
-## Kotlin example
-
-```kotlin
-val a = 1
-val b = 2
-val c = fun (a: Int) : Int = a * a
-println("a=$a b=$b c=${c(3)}")
-```
-
-## Dart example
-
-```dart
-var a = 1;
-var b = 2;
-var c = (int a) => a * a;
-print("a=$a b=$b c=${c(3)}");
-```
-
-JavaScript uses `` `...${}...` ``. The curly braces can contain expressions, too.
-
-## JavaScript example
-
-```javascript
-var a = 1
-var b = 2
-var c = (a) => a * a
-console.log(`a=${a} b=${b} c=${c(3)}`)
-```
-
-C# prefixes the string witn `$`. Variables and expressions are put inside `{}`.
-
-## C# examples
+## C#
 
 ```csharp
 var a = 1;
@@ -44,20 +17,16 @@ Func<int, int> c = x => x * x;
 Console.WriteLine($"a={a} b={b} c={c(3)}");
 ``` 
 
-Swift likes `"...\()..."`. So, variables or expressions are put in round braces. The prefix is `\`.
+## Dart
 
-## Swift examples
-
-```swift
-let a = 1
-let b = 2
-let c = { (a) -> Int in a * a}
-print("a=\(a) b=\(b) c=\(c(3))") 
+```dart
+var a = 1;
+var b = 2;
+var c = (int a) => a * a;
+print("a=$a b=$b c=${c(3)}");
 ```
 
-Java has no string interpolation. Still, there certainly is powerful `String.format(...)`.
-
-## Java examples
+## Java
 
 ```java
 var a = 1;
@@ -65,6 +34,33 @@ var b = 2;
 UnaryOperator<Integer> c = (x) -> x * x;
 System.out.println(String.format("a=%d b=%d c=%d",
         a, b, c.apply(3)));
+```
+
+## JavaScript
+
+```javascript
+var a = 1
+var b = 2
+var c = (a) => a * a
+console.log(`a=${a} b=${b} c=${c(3)}`)
+```
+
+## Kotlin
+
+```kotlin
+val a = 1
+val b = 2
+val c = fun (a: Int) : Int = a * a
+println("a=$a b=$b c=${c(3)}")
+```
+
+## Swift
+
+```swift
+let a = 1
+let b = 2
+let c = { (a) -> Int in a * a}
+print("a=\(a) b=\(b) c=\(c(3))") 
 ```
 
 ---

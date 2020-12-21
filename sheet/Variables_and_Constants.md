@@ -1,13 +1,32 @@
 # Variables and Constants
 
-## Swift
+## C#
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
-|Variable        |var name[: type] = expression|
-|Constant        |let name[: type] = expression|
-|Examples        |`var answer = 42`|
-|                |`let PI: Float = 3.14159265359`|
+|Variable        |type name = expression;|
+|Constant        |const type name = expression;|
+|Examples        |`int answer = 42;`|
+|                |`const double PI = 3.14159265359;`|
+
+## Dart
+
+|Feature         |Implementation|
+|----------------|------------------------------------------------------------|
+|Variable        |var name = expression;|
+|Constant        |const name = expression;|
+|Examples        |`var answer = 42;`|
+|                |`const PI = 3.14159265359;`|
+|                |`final a = A();`|
+
+## Java
+
+|Feature         |Implementation|
+|----------------|------------------------------------------------------------|
+|Variable        |type name = expression;|
+|Constant        |final type name = expression;|
+|Examples        |`int answer = 42;`|
+|                |`final double PI = 3.14159265359;`|
 
 ## JavaScript
 
@@ -19,16 +38,8 @@
 |                |`let a = 42; // block scoped`|
 |                |`const PI = 3.14159265359;`|
 
-## Dart	
-|Feature         |Implementation|
-|----------------|------------------------------------------------------------|
-|Variable        |var name = expression;|
-|Constant        |const name = expression;|
-|Examples        |`var answer = 42;`|
-|                |`const PI = 3.14159265359;`|
-|                |`final a = A();`|
+## Kotlin
 
-## Kotlin	
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
 |Variable        |var name[: type] = expression (reassignable)|
@@ -37,13 +48,14 @@
 |Examples        |`var answer = 42`|
 |                |`const val PI = 3.14159265359`|
 
-## Java	
+## Swift
+
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
-|Variable        |type name = expression;|
-|Constant        |final type name = expression;|
-|Examples        |`int answer = 42;`|
-|                |`final double PI = 3.14159265359;`|
+|Variable        |var name[: type] = expression|
+|Constant        |let name[: type] = expression|
+|Examples        |`var answer = 42`|
+|                |`let PI: Float = 3.14159265359`|
 
 ---
 [Back](/README.md) to main page

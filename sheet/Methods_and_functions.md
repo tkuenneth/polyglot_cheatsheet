@@ -1,23 +1,13 @@
 # Methods and functions
 
-## Swift
+## C#	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
-|Keyword and name|func name|
-|Parameters      |[[name] name: type]|
-|Return type     |[-> type]|
-|Examples        |`func multiply(x y: Int, z: Int) -> Int { return y * z}`|
-
-## JavaScript	
-
-|Feature         |Implementation|
-|----------------|------------------------------------------------------------|
-|Keyword and name|function [name]|
-|Parameters      |[name]|
-|Return type     |n/a|
-|Examples        |`function multiply(x, y) { return x * y; }`|
-|                |`(x, y) => x * y`|
+|Keyword and name|name|
+|Parameters      |[type name]|
+|Return type     |type|
+|Examples        |`int Multiply(int x, int y) { return x * y; }`|
 
 ## Dart	
 
@@ -29,6 +19,25 @@
 |Examples        |`int multiply(int x, int y) { return x * y; }`|
 |                |`(x, y) => x * y;`|
 
+## Java	
+
+|Feature         |Implementation|
+|----------------|------------------------------------------------------------|
+|Keyword and name|name|
+|Parameters      |[type name]|
+|Return type     |type|
+|Examples        |`int multiply(int x, int y) { return x * y; }`|
+
+## JavaScript	
+
+|Feature         |Implementation|
+|----------------|------------------------------------------------------------|
+|Keyword and name|function [name]|
+|Parameters      |[name]|
+|Return type     |n/a|
+|Examples        |`function multiply(x, y) { return x * y; }`|
+|                |`(x, y) => x * y`|
+
 ## Kotlin	
 
 |Feature         |Implementation|
@@ -39,23 +48,14 @@
 |Examples        |`fun multiply(x: Int, y: Int): Int { return x * y }`|
 |                |`fun multiply(x: Int, y: Int): Int = x * y`|
 
-## Java	
+## Swift
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
-|Keyword and name|name|
-|Parameters      |[type name]|
-|Return type     |type|
-|Examples        |`int multiply(int x, int y) { return x * y; }`|
-
-## C#	
-
-|Feature         |Implementation|
-|----------------|------------------------------------------------------------|
-|Keyword and name|name|
-|Parameters      |[type name]|
-|Return type     |type|
-|Examples        |`int Multiply(int x, int y) { return x * y; }`|
+|Keyword and name|func name|
+|Parameters      |[[name] name: type]|
+|Return type     |[-> type]|
+|Examples        |`func multiply(x y: Int, z: Int) -> Int { return y * z}`|
 
 ---
 [Back](/README.md) to main page

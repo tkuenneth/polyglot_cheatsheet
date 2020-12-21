@@ -1,16 +1,31 @@
 # for loops
 
-## Dart	
+`for`-loops may come in different flavors. Many languages have a C-like implementation, which consists of an *initialization*, a *condition* and an *increment*. Another syntax allows to iterate over arrays or lists.
 
-Dart has a C-like `for`-loop:
+## C#
+
+```csharp
+for (int i = 0; i <= 3; i++)
+{
+    System.Diagnostics.Debug.WriteLine(i);
+}
+```
+
+```csharp
+String[] a = { "Java", "C#", "JavaScript", "…" };
+foreach (String b in a)
+{
+    System.Diagnostics.Debug.WriteLine(b);
+}
+```
+
+## Dart
 
 ```dart
 for (var i = 0; i < 4; i++) {
     print(i);
 }
 ```
-
-Also, there is a `foreach`-like alternative:
 
 ```dart
 const numbers = [12, 3, 14, 5]; 
@@ -19,18 +34,22 @@ for (var n in numbers) {
 } 
 ```
 
-## Java	
+## Java
+
+```java
+for (int i = 0; i <= 3; i++) {
+    System.out.println(i);
+}
+```
 
 ```java
 String [] a = {"Java", "C#", "JavaScript", "…"};
   for (String b : a) {
-  System.out.println(b);
+    System.out.println(b);
 }
 ```
 
 ## JavaScript
-
-JavaScript has a C-like `for`-loop:
 
 ```javascript
 for (i = 1; i <= 3; i++) {
@@ -45,7 +64,7 @@ for (var b of a) {
 }
 ```
 
-## Kotlin	
+## Kotlin
 
 ```kotlin
 for (i in 1..3) {
@@ -56,6 +75,12 @@ for (i in 1..3) {
 ```kotlin
 for (i in 6 downTo 0 step 2) {
   println(i)
+}
+```
+
+```kotlin
+for (s in listOf("Java", "C#", "JavaScript", "…")) {
+    println(s)
 }
 ```
 
