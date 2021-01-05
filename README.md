@@ -29,11 +29,13 @@ If an element is put in square brackets `[like this]` it means that *like this* 
 
 ## Table of Contents
 
-- [Methods and Functions](./sheet/Methods_and_functions.md)
 - [Variables and Constants](./sheet/Variables_and_Constants.md)
-- [Arrows](./sheet/arrows.md)
 - [String interpolation](./sheet/string_interpolation.md)
-- Loops
-   - [for](./sheet/for_loops.md)
-   - [while](./sheet/while_loops.md)
-- [Conditions](./sheet/conditions.md)
+- Program flow
+   - [Conditions](./sheet/conditions.md)
+   - Loops
+      - [for](./sheet/for_loops.md)
+      - [while](./sheet/while_loops.md)
+- [Methods and Functions](./sheet/Methods_and_functions.md)
+- [Lambda expressions](./sheet/arrows.md)
+- [Asynchronicity](./sheet/asynchronicity.md)
