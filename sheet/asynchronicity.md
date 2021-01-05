@@ -21,6 +21,22 @@ Console.WriteLine("Done");
 
 ## Java
 
+```java
+var t = new Thread(() -> {
+  try {
+    for (int i = 0; i < 3; i++) {
+      System.out.println(i);
+      Thread.sleep(3000);
+    }
+  } catch (InterruptedException e) {
+    e.printStackTrace();
+  }
+});
+t.start();
+t.join();
+System.out.println("Done");
+```
+
 ## JavaScript
 
 ## Kotlin
