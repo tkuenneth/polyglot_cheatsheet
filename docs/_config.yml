@@ -1,8 +1,6 @@
 title: "polyglot cheat sheet"
 theme: minima
-author:
-  email: thomas@thomaskuenneth.eu
-  name: "Thomas K\u00fcnneth"
+email: thomas@thomaskuenneth.eu
 header_pages:
   - index.md
   - Methods_and_functions.md
