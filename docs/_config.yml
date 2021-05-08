@@ -1,0 +1,15 @@
+title: "polyglot cheat sheet"
+theme: minima
+author:
+  email: thomas@thomaskuenneth.eu
+  name: "Thomas K\u00fcnneth"
+header_pages:
+  - index.md
+  - Methods_and_functions.md
+  - Variables_and_Constants.md
+  - string_interpolation
+  - conditions.md
+  - for_loops.md
+  - while_loops.md
+  - asynchronicity.md
+  - arrows.md

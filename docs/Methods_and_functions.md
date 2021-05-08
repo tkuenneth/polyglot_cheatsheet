@@ -1,6 +1,9 @@
-# Methods and functions
+---
+layout: page
+title: Methods and functions
+---
 
-## C#	
+### C#	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -9,7 +12,7 @@
 |Return type     |type|
 |Examples        |`int Multiply(int x, int y) { return x * y; }`|
 
-## Dart	
+### Dart	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -19,7 +22,7 @@
 |Examples        |`int multiply(int x, int y) { return x * y; }`|
 |                |`(x, y) => x * y;`|
 
-## Java	
+### Java	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -28,7 +31,7 @@
 |Return type     |type|
 |Examples        |`int multiply(int x, int y) { return x * y; }`|
 
-## JavaScript	
+### JavaScript	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -38,7 +41,7 @@
 |Examples        |`function multiply(x, y) { return x * y; }`|
 |                |`(x, y) => x * y`|
 
-## Kotlin	
+### Kotlin	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -48,7 +51,7 @@
 |Examples        |`fun multiply(x: Int, y: Int): Int { return x * y }`|
 |                |`fun multiply(x: Int, y: Int): Int = x * y`|
 
-## Swift
+### Swift
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -56,6 +59,3 @@
 |Parameters      |[[name] name: type]|
 |Return type     |[-> type]|
 |Examples        |`func multiply(x y: Int, z: Int) -> Int { return y * z}`|
-
----
-[Back](/README.md) to main page

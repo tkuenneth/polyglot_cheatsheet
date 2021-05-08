@@ -1,8 +1,11 @@
-# Asynchronicity
+---
+layout: page
+title: Asynchronicity
+---
 
 This page briefly shows how to do (pseudo-)parallel execution of code. Actually, concepts of asynchronicity and concurrency are deliberately mixed to provide a first impression of how this is done in different programming languages. Please note that, depending on the language support for asynchronicity may be provided through the core language using keywords like `async` and `await`, or (class) libraries, or a mix of both.
 
-## C#
+### C#
 
 ```csharp
 Task.WaitAll(new Task[]
@@ -17,9 +20,9 @@ Task.WaitAll(new Task[]
 Console.WriteLine("Done");
 ```
 
-## Dart
+### Dart
 
-## Java
+### Java
 
 ```java
 var t = new Thread(() -> {
@@ -37,11 +40,8 @@ t.join();
 System.out.println("Done");
 ```
 
-## JavaScript
+### JavaScript
 
-## Kotlin
+### Kotlin
 
-## Swift
-
----
-[Back](/README.md) to main page
+### Swift

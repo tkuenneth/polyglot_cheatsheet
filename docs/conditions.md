@@ -1,8 +1,11 @@
-# Conditions
+---
+layout: page
+title: Conditions
+---
 
 Condition checks may come in different flavors. Most languages offer the classic `if`-`else` statements. Additionally we may find operators that check special conditions.
 
-## C#
+### C#
 
 ```csharp
 if (new Random().Next(10) > 5)
@@ -15,7 +18,7 @@ else
 }
 ```
 
-## Dart	
+### Dart	
 
 ```dart
 if (Random().nextInt(10) > 5) {
@@ -38,7 +41,7 @@ String s = "Hello"; // Replace with null
 print(s?? "is null");
 ```
 
-## Java
+### Java
 
 ```java
 if (Math.random() * 10 > 5) {
@@ -48,7 +51,7 @@ if (Math.random() * 10 > 5) {
 }
 ```
 
-## JavaScript
+### JavaScript
 
 ```javascript
 if (Math.random() * 10 > 5) {
@@ -58,7 +61,7 @@ if (Math.random() * 10 > 5) {
 }
 ```
 
-## Kotlin
+### Kotlin
 
 ```kotlin
 if ((0 until 10).random() > 5) {
@@ -68,7 +71,7 @@ if ((0 until 10).random() > 5) {
 }
 ```
 
-## Swift
+### Swift
 
 ```swift
 if (Int.random(in: 0..<10) > 5) {
@@ -77,6 +80,3 @@ if (Int.random(in: 0..<10) > 5) {
     print("<= 5");
 }
 ```
-
----
-[Back](/README.md) to main page

@@ -1,6 +1,9 @@
-# Variables and Constants
+---
+layout: page
+title: Variables and Constants
+---
 
-## C#
+### C#
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -9,7 +12,7 @@
 |Examples        |`int answer = 42;`|
 |                |`const double PI = 3.14159265359;`|
 
-## Dart
+### Dart
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -19,7 +22,7 @@
 |                |`const PI = 3.14159265359;`|
 |                |`final a = A();`|
 
-## Java
+### Java
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -28,7 +31,7 @@
 |Examples        |`int answer = 42;`|
 |                |`final double PI = 3.14159265359;`|
 
-## JavaScript
+### JavaScript
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -38,7 +41,7 @@
 |                |`let a = 42; // block scoped`|
 |                |`const PI = 3.14159265359;`|
 
-## Kotlin
+### Kotlin
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -48,7 +51,7 @@
 |Examples        |`var answer = 42`|
 |                |`const val PI = 3.14159265359`|
 
-## Swift
+### Swift
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -56,6 +59,3 @@
 |Constant        |let name[: type] = expression|
 |Examples        |`var answer = 42`|
 |                |`let PI: Float = 3.14159265359`|
-
----
-[Back](/README.md) to main page

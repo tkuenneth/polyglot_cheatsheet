@@ -1,8 +1,11 @@
-# for loops
+---
+layout: page
+title: for loops
+---
 
 `for`-loops may come in different flavors. Many languages have a C-like implementation, which consists of an *initialization*, a *condition* and an *increment*. Another syntax allows to iterate over arrays or lists.
 
-## C#
+### C#
 
 ```csharp
 for (int i = 0; i <= 3; i++)
@@ -19,7 +22,7 @@ foreach (String b in a)
 }
 ```
 
-## Dart
+### Dart
 
 ```dart
 for (var i = 0; i < 4; i++) {
@@ -34,7 +37,7 @@ for (var n in numbers) {
 } 
 ```
 
-## Java
+### Java
 
 ```java
 for (int i = 0; i <= 3; i++) {
@@ -49,7 +52,7 @@ String [] a = {"Java", "C#", "JavaScript", "…"};
 }
 ```
 
-## JavaScript
+### JavaScript
 
 ```javascript
 for (i = 1; i <= 3; i++) {
@@ -64,7 +67,7 @@ for (var b of a) {
 }
 ```
 
-## Kotlin
+### Kotlin
 
 ```kotlin
 for (i in 1..3) {
@@ -84,7 +87,7 @@ for (s in listOf("Java", "C#", "JavaScript", "…")) {
 }
 ```
 
-## Swift
+### Swift
 
 ```swift
 for b in 1...10 {
@@ -97,6 +100,3 @@ for b in (1...10).reversed() {
   print(b)
 }
 ```
-
----
-[Back](/README.md) to main page

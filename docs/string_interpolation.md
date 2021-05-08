@@ -1,4 +1,7 @@
-# String interpolation
+---
+layout: page
+title: String interpolation
+---
 
 String interpolation or variable substitution means replacing placeholders with corresponding variable content. 
 
@@ -8,7 +11,7 @@ String interpolation or variable substitution means replacing placeholders with 
 - JavaScript uses `` `...${}...` ``. The curly braces can contain expressions, too.
 - Swift likes `"...\()..."`. So, variables or expressions are put in round braces. The prefix is `\`.
 
-## C#
+### C#
 
 ```csharp
 var a = 1;
@@ -17,7 +20,7 @@ Func<int, int> c = x => x * x;
 Console.WriteLine($"a={a} b={b} c={c(3)}");
 ``` 
 
-## Dart
+### Dart
 
 ```dart
 var a = 1;
@@ -26,7 +29,7 @@ var c = (int a) => a * a;
 print("a=$a b=$b c=${c(3)}");
 ```
 
-## Java
+### Java
 
 ```java
 var a = 1;
@@ -36,7 +39,7 @@ System.out.println(String.format("a=%d b=%d c=%d",
         a, b, c.apply(3)));
 ```
 
-## JavaScript
+### JavaScript
 
 ```javascript
 var a = 1
@@ -45,7 +48,7 @@ var c = (a) => a * a
 console.log(`a=${a} b=${b} c=${c(3)}`)
 ```
 
-## Kotlin
+### Kotlin
 
 ```kotlin
 val a = 1
@@ -54,7 +57,7 @@ val c = fun (a: Int) : Int = a * a
 println("a=$a b=$b c=${c(3)}")
 ```
 
-## Swift
+### Swift
 
 ```swift
 let a = 1
@@ -62,6 +65,3 @@ let b = 2
 let c = { (a) -> Int in a * a}
 print("a=\(a) b=\(b) c=\(c(3))") 
 ```
-
----
-[Back](/README.md) to main page

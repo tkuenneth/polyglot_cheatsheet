@@ -4,38 +4,4 @@ The times when we could focus on one programming language are long gone. These d
 
 But don't panic. This cheat sheet for the polyglot developer lists important concepts and shows how they are represented in **C#**, **Dart**, **Java**, **JavaScript**, **Kotlin** and **Swift**. The cheat sheet does not want to judge. No language is considered better or superior. 
 
-If you want to try something quickly, there is no need to install a complete IDE. You can find so-called REPLs on the web. The term REPL means **R**ead-**E**valuate-**P**rint-Loop. Such tools work like this:
-
-1. Enter a command or expression
-2. The input is processed
-3. The result is output
-
-Shells are REPLs. The (full screen) editors of home computers were, too. But you can also use them to learn a program language.
-
-|Language|REPL|
-|-|-|
-|Dart|[DartPad](https://dartpad.dev/)|
-|JavaScript|[JSFiddle](https://jsfiddle.net/)|
-|Kotlin|[Kotlin Playground](https://play.kotlinlang.org/)|
-|Swift|[Online Swift Playground](http://online.swiftplayground.run/)|
-
-### Contributions welcome
-
-If you feel that something should be added, please do so. If you find out that something is wrong, please contribute, too. The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has a nice overview of the markdown syntax.
-
-### Conventions
-
-If an element is put in square brackets `[like this]` it means that *like this* can be omitted (it is optional).
-
-## Table of Contents
-
-- [Variables and Constants](./sheet/Variables_and_Constants.md)
-- [String interpolation](./sheet/string_interpolation.md)
-- Program flow
-   - [Conditions](./sheet/conditions.md)
-   - Loops
-      - [for](./sheet/for_loops.md)
-      - [while](./sheet/while_loops.md)
-- [Methods and Functions](./sheet/Methods_and_functions.md)
-- [Lambda expressions](./sheet/arrows.md)
-- [Asynchronicity](./sheet/asynchronicity.md)
+You can browse the cheat sheet at https://tkuenneth.github.io/polyglot_cheatsheet/
