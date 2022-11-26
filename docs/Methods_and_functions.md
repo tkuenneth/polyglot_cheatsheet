@@ -59,3 +59,4 @@ title: Methods and functions
 |Parameters      |[[name] name: type]|
 |Return type     |[-> type]|
 |Examples        |`func multiply(x y: Int, z: Int) -> Int { return y * z}`|
+

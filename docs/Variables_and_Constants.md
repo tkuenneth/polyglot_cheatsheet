@@ -124,3 +124,4 @@ let b = 2
 let c = { (a) -> Int in a * a}
 print("a=\(a) b=\(b) c=\(c(3))") 
 ```
+
