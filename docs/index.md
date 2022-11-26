@@ -22,11 +22,11 @@ Shells are REPLs. The (full screen) editors of home computers were, too. But you
 |Kotlin|[Kotlin Playground](https://play.kotlinlang.org/)|
 |Swift|[Online Swift Playground](http://online.swiftplayground.run/)|
 
+### Conventions
+
+If an element is put in square brackets `[like this]` it means that *like this* can be omitted (it is optional).
+
 ### Contributions welcome
 
 The polyglot cheat sheet is a collection of markdown files. You can find the repo on [GitHub](https://github.com/tkuenneth/polyglot_cheatsheet).
 If you feel that something should be added, please do so. If you find out that something is wrong, please contribute, too. The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has a nice overview of the markdown syntax.
-
-### Conventions
-
-If an element is put in square brackets `[like this]` it means that *like this* can be omitted (it is optional).

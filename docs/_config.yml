@@ -2,7 +2,6 @@ title: "polyglot cheat sheet"
 theme: minima
 email: thomas@thomaskuenneth.eu
 header_pages:
-  - index.md
   - Methods_and_functions.md
   - Variables_and_Constants.md
   - string_interpolation
