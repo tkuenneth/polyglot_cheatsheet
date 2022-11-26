@@ -6,7 +6,6 @@ header_pages:
   - Variables_and_Constants.md
   - string_interpolation
   - conditions.md
-  - for_loops.md
-  - while_loops.md
+  - loops.md
   - asynchronicity.md
   - arrows.md
