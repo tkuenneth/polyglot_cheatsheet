@@ -9,13 +9,3 @@ This cheat sheet for the polyglot developer lists important concepts and shows h
 The cheat sheet does not want to judge. No language is considered better or superior. So, the cheat sheet aims to be a humble tool to help you understand and appreciate similarities and differences. 
 
 You can browse the cheat sheet at https://tkuenneth.github.io/polyglot_cheatsheet/
-
-### Sections
-
-[Methods and functions](./methods-and-functions.html)
-
-[Variables and constants](./variables-and-constants.html)
-
-[Control flow](./control-flow.html)
-
-[Miscellaneous](./miscellaneous.html)

@@ -13,7 +13,7 @@ The cheat sheet does not want to judge. No language is considered better or supe
 
 ### Contributions
 
-The polyglot cheat sheet is a collection of markdown files. You can find the repo on [GitHub](https://github.com/tkuenneth/polyglot_cheatsheet). It is released under the terms of the [Apache-2.0 license](Apache-2.0 license). If you feel that something should be added, please do so. If you find out that something is wrong, please contribute, too. The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has a nice overview of the markdown syntax.
+The polyglot cheat sheet is a collection of markdown files. You can find the repo on [GitHub](https://github.com/tkuenneth/polyglot_cheatsheet). It is released under the terms of the [Apache-2.0 license](https://github.com/tkuenneth/polyglot_cheatsheet/blob/master/LICENSE). If you feel that something should be added, please do so. If you find out that something is wrong, please contribute, too. The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has a nice overview of the markdown syntax.
 
 ### How to use the cheat sheet
 
@@ -35,3 +35,13 @@ Shells are REPLs. The (full screen) editors of home computers were, too. But you
 #### Conventions
 
 If an element is put in square brackets `[like this]` it means that *like this* can be omitted (it is optional).
+
+#### Sections
+
+[Methods and functions](./methods-and-functions.html)
+
+[Variables and constants](./variables-and-constants.html)
+
+[Control flow](./control-flow.html)
+
+[Miscellaneous](./miscellaneous.html)
