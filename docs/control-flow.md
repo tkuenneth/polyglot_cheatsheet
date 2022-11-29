@@ -3,11 +3,11 @@ layout: page
 title: Control flow
 ---
 
-## Conditions
+### Conditions
 
 Condition checks may come in different flavors. Most languages offer the classic `if`-`else` statements. Additionally we may find operators that check special conditions.
 
-### C#
+#### C#
 
 ```csharp
 if (new Random().Next(10) > 5)
@@ -20,7 +20,7 @@ else
 }
 ```
 
-### Dart	
+#### Dart	
 
 ```dart
 if (Random().nextInt(10) > 5) {
@@ -43,7 +43,7 @@ String s = "Hello"; // Replace with null
 print(s?? "is null");
 ```
 
-### Java
+#### Java
 
 ```java
 if (Math.random() * 10 > 5) {
@@ -53,7 +53,7 @@ if (Math.random() * 10 > 5) {
 }
 ```
 
-### JavaScript
+#### JavaScript
 
 ```javascript
 if (Math.random() * 10 > 5) {
@@ -63,7 +63,7 @@ if (Math.random() * 10 > 5) {
 }
 ```
 
-### Kotlin
+#### Kotlin
 
 ```kotlin
 if ((0 until 10).random() > 5) {
@@ -73,7 +73,7 @@ if ((0 until 10).random() > 5) {
 }
 ```
 
-### Swift
+#### Swift
 
 ```swift
 if (Int.random(in: 0..<10) > 5) {
@@ -83,11 +83,11 @@ if (Int.random(in: 0..<10) > 5) {
 }
 ```
 
-## `for`-loops
+### `for`-loops
 
 `for`-loops may come in different flavors. Many languages have a C-like implementation, which consists of an *initialization*, a *condition* and an *increment*. Another syntax allows to iterate over arrays or lists.
 
-### C#
+#### C#
 
 ```csharp
 for (int i = 0; i <= 3; i++)
@@ -104,7 +104,7 @@ foreach (String b in a)
 }
 ```
 
-### Dart
+#### Dart
 
 ```dart
 for (var i = 0; i < 4; i++) {
@@ -119,7 +119,7 @@ for (var n in numbers) {
 } 
 ```
 
-### Java
+#### Java
 
 ```java
 for (int i = 0; i <= 3; i++) {
@@ -134,7 +134,7 @@ String [] a = {"Java", "C#", "JavaScript", "…"};
 }
 ```
 
-### JavaScript
+#### JavaScript
 
 ```javascript
 for (i = 1; i <= 3; i++) {
@@ -149,7 +149,7 @@ for (var b of a) {
 }
 ```
 
-### Kotlin
+#### Kotlin
 
 ```kotlin
 for (i in 1..3) {
@@ -169,7 +169,7 @@ for (s in listOf("Java", "C#", "JavaScript", "…")) {
 }
 ```
 
-### Swift
+#### Swift
 
 ```swift
 for b in 1...10 {
@@ -183,11 +183,11 @@ for b in (1...10).reversed() {
 }
 ```
 
-## `while`-loops
+### Loops
 
 `while`-loops execute code blocks as long as a condition is met. Most programming languages can have these condition checks either at the beginning or at the end. The latter one is useful if you want the code to execute at least once, even if it turns out that the condition is **not** met.
 
-### C#
+#### C#
 
 ```csharp
 int count = 0;
@@ -204,7 +204,7 @@ while (count < 4)
 }
 ```
 
-### Dart	
+#### Dart	
 
 ```dart
 int count = 0;
@@ -220,7 +220,7 @@ while (count < 4) {
 }
 ```
 
-### Java	
+#### Java	
 
 ```java
 int count = 0;
@@ -236,7 +236,7 @@ while (count < 4) {
 }
 ```
 
-### JavaScript
+#### JavaScript
 
 ```javascript
 let count = 0;
@@ -252,7 +252,7 @@ while (count < 4) {
 }
 ```
 
-### Kotlin	
+#### Kotlin	
 
 ```kotlin
 var count = 0
@@ -268,7 +268,7 @@ while (count < 4) {
 }
 ```
 
-### Swift
+#### Swift
 
 ```swift
 var count = 0

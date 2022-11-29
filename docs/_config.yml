@@ -2,8 +2,7 @@ title: "polyglot cheat sheet"
 theme: minima
 email: thomas@thomaskuenneth.eu
 header_pages:
-  - Methods_and_functions.md
-  - Variables_and_Constants.md
-  - control_flow.md
-  - asynchronicity.md
-  - arrows.md
+  - methods-and-functions.md
+  - variables-and-constants.md
+  - control-flow.md
+  - miscellaneous.md

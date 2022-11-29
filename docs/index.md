@@ -5,7 +5,11 @@ title: Welcome
 
 The times when we could focus on one programming language are long gone. These days we are expected to be fluent in several ones. Even in one project we may face a backend written in Java, an Android app in Kotlin, an iOS app written in Swift, and maybe a Web client in JavaScript. Most programming language share a lot of common concepts, yet they differ regarding implementation. So, it's easy to get confused. 
 
-But don't panic. This cheat sheet for the polyglot developer lists important concepts and shows how they are represented in **C#**, **Dart**, **Java**, **JavaScript**, **Kotlin** and **Swift**. The cheat sheet does not want to judge. No language is considered better or superior. 
+But don't panic. 
+
+This cheat sheet for the polyglot developer lists important concepts and shows how they are represented in **C#**, **Dart**, **Java**, **JavaScript**, **Kotlin** and **Swift**. 
+
+The cheat sheet does not want to judge. No language is considered better or superior. So, the cheat sheet aims to be a humble tool to help you understand and appreciate similarities and differences. 
 
 If you want to try something quickly, there is no need to install a complete IDE. You can find so-called REPLs on the web. The term REPL means **R**ead-**E**valuate-**P**rint-Loop. Such tools work like this:
 
