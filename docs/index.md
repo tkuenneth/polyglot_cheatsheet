@@ -11,7 +11,13 @@ This cheat sheet for the polyglot developer lists important concepts and shows h
 
 The cheat sheet does not want to judge. No language is considered better or superior. So, the cheat sheet aims to be a humble tool to help you understand and appreciate similarities and differences. 
 
-If you want to try something quickly, there is no need to install a complete IDE. You can find so-called REPLs on the web. The term REPL means **R**ead-**E**valuate-**P**rint-Loop. Such tools work like this:
+### Contributions
+
+The polyglot cheat sheet is a collection of markdown files. You can find the repo on [GitHub](https://github.com/tkuenneth/polyglot_cheatsheet). It is released under the terms of the [Apache-2.0 license](Apache-2.0 license). If you feel that something should be added, please do so. If you find out that something is wrong, please contribute, too. The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has a nice overview of the markdown syntax.
+
+### How to use the cheat sheet
+
+If you want to try something quickly, there is no need to install a complete IDE. You can find so-called *REPL*s on the web. The term means **R**ead-**E**valuate-**P**rint-Loop. Such tools work like this:
 
 1. Enter a command or expression
 2. The input is processed
@@ -26,11 +32,6 @@ Shells are REPLs. The (full screen) editors of home computers were, too. But you
 |Kotlin|[Kotlin Playground](https://play.kotlinlang.org/)|
 |Swift|[Online Swift Playground](http://online.swiftplayground.run/)|
 
-### Conventions
+#### Conventions
 
 If an element is put in square brackets `[like this]` it means that *like this* can be omitted (it is optional).
-
-### Contributions welcome
-
-The polyglot cheat sheet is a collection of markdown files. You can find the repo on [GitHub](https://github.com/tkuenneth/polyglot_cheatsheet).
-If you feel that something should be added, please do so. If you find out that something is wrong, please contribute, too. The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has a nice overview of the markdown syntax.

@@ -3,7 +3,7 @@ layout: page
 title: Methods and functions
 ---
 
-#### C#	
+##### C#	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -12,7 +12,7 @@ title: Methods and functions
 |Return type     |type|
 |Examples        |`int Multiply(int x, int y) { return x * y; }`|
 
-#### Dart	
+##### Dart	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -22,7 +22,7 @@ title: Methods and functions
 |Examples        |`int multiply(int x, int y) { return x * y; }`|
 |                |`(x, y) => x * y;`|
 
-#### Java	
+##### Java	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -31,7 +31,7 @@ title: Methods and functions
 |Return type     |type|
 |Examples        |`int multiply(int x, int y) { return x * y; }`|
 
-#### JavaScript	
+##### JavaScript	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -41,7 +41,7 @@ title: Methods and functions
 |Examples        |`function multiply(x, y) { return x * y; }`|
 |                |`(x, y) => x * y`|
 
-#### Kotlin	
+##### Kotlin	
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -51,7 +51,7 @@ title: Methods and functions
 |Examples        |`fun multiply(x: Int, y: Int): Int { return x * y }`|
 |                |`fun multiply(x: Int, y: Int): Int = x * y`|
 
-#### Swift
+##### Swift
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|

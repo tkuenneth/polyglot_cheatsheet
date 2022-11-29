@@ -3,7 +3,7 @@ layout: page
 title: Variables and Constants
 ---
 
-#### C#
+##### C#
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -12,7 +12,7 @@ title: Variables and Constants
 |Examples        |`int answer = 42;`|
 |                |`const double PI = 3.14159265359;`|
 
-#### Dart
+##### Dart
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -22,7 +22,7 @@ title: Variables and Constants
 |                |`const PI = 3.14159265359;`|
 |                |`final a = A();`|
 
-#### Java
+##### Java
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -31,7 +31,7 @@ title: Variables and Constants
 |Examples        |`int answer = 42;`|
 |                |`final double PI = 3.14159265359;`|
 
-#### JavaScript
+##### JavaScript
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -41,7 +41,7 @@ title: Variables and Constants
 |                |`let a = 42; // block scoped`|
 |                |`const PI = 3.14159265359;`|
 
-#### Kotlin
+##### Kotlin
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -51,7 +51,7 @@ title: Variables and Constants
 |Examples        |`var answer = 42`|
 |                |`const val PI = 3.14159265359`|
 
-#### Swift
+##### Swift
 
 |Feature         |Implementation|
 |----------------|------------------------------------------------------------|
@@ -70,7 +70,7 @@ String interpolation or variable substitution means replacing placeholders with 
 - JavaScript uses `` `...${}...` ``. The curly braces can contain expressions, too.
 - Swift likes `"...\()..."`. So, variables or expressions are put in round braces. The prefix is `\`.
 
-#### C#
+##### C#
 
 ```csharp
 var a = 1;
@@ -79,7 +79,7 @@ Func<int, int> c = x => x * x;
 Console.WriteLine($"a={a} b={b} c={c(3)}");
 ``` 
 
-#### Dart
+##### Dart
 
 ```dart
 var a = 1;
@@ -88,7 +88,7 @@ var c = (int a) => a * a;
 print("a=$a b=$b c=${c(3)}");
 ```
 
-#### Java
+##### Java
 
 ```java
 var a = 1;
@@ -98,7 +98,7 @@ System.out.println(String.format("a=%d b=%d c=%d",
         a, b, c.apply(3)));
 ```
 
-#### JavaScript
+##### JavaScript
 
 ```javascript
 var a = 1
@@ -107,7 +107,7 @@ var c = (a) => a * a
 console.log(`a=${a} b=${b} c=${c(3)}`)
 ```
 
-#### Kotlin
+##### Kotlin
 
 ```kotlin
 val a = 1
@@ -116,7 +116,7 @@ val c = fun (a: Int) : Int = a * a
 println("a=$a b=$b c=${c(3)}")
 ```
 
-#### Swift
+##### Swift
 
 ```swift
 let a = 1
